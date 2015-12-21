@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195357EB1BEA465E00A9AF84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195357EA1BEA465E00A9AF84 /* AppDelegate.swift */; };
+		195357ED1BEA465E00A9AF84 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195357EC1BEA465E00A9AF84 /* HomeViewController.swift */; };
+		195357F01BEA465E00A9AF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195357EE1BEA465E00A9AF84 /* Main.storyboard */; };
+		195357F21BEA465E00A9AF84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195357F11BEA465E00A9AF84 /* Assets.xcassets */; };
+		195357F51BEA465E00A9AF84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195357F31BEA465E00A9AF84 /* LaunchScreen.storyboard */; };
+		195357FF1BEA46B300A9AF84 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195357FC1BEA46B300A9AF84 /* FBSDKCoreKit.framework */; };
+		195358001BEA46B300A9AF84 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195357FD1BEA46B300A9AF84 /* FBSDKLoginKit.framework */; };
+		195358011BEA46B300A9AF84 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195357FE1BEA46B300A9AF84 /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		195357E71BEA465E00A9AF84 /* SwiftFacbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFacbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195357EA1BEA465E00A9AF84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		195357EC1BEA465E00A9AF84 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		195357EF1BEA465E00A9AF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195357F11BEA465E00A9AF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195357F41BEA465E00A9AF84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195357F61BEA465E00A9AF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195357FC1BEA46B300A9AF84 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = SwiftFacbook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		195357FD1BEA46B300A9AF84 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = SwiftFacbook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		195357FE1BEA46B300A9AF84 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = SwiftFacbook/FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195357E41BEA465E00A9AF84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195357FF1BEA46B300A9AF84 /* FBSDKCoreKit.framework in Frameworks */,
+				195358001BEA46B300A9AF84 /* FBSDKLoginKit.framework in Frameworks */,
+				195358011BEA46B300A9AF84 /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195357DE1BEA465D00A9AF84 = {
+			isa = PBXGroup;
+			children = (
+				195357FC1BEA46B300A9AF84 /* FBSDKCoreKit.framework */,
+				195357FD1BEA46B300A9AF84 /* FBSDKLoginKit.framework */,
+				195357FE1BEA46B300A9AF84 /* FBSDKShareKit.framework */,
+				195357E91BEA465E00A9AF84 /* SwiftFacbook */,
+				195357E81BEA465E00A9AF84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		195357E81BEA465E00A9AF84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195357E71BEA465E00A9AF84 /* SwiftFacbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195357E91BEA465E00A9AF84 /* SwiftFacbook */ = {
+			isa = PBXGroup;
+			children = (
+				195357EA1BEA465E00A9AF84 /* AppDelegate.swift */,
+				195357EC1BEA465E00A9AF84 /* HomeViewController.swift */,
+				195357EE1BEA465E00A9AF84 /* Main.storyboard */,
+				195357F11BEA465E00A9AF84 /* Assets.xcassets */,
+				195357F31BEA465E00A9AF84 /* LaunchScreen.storyboard */,
+				195357F61BEA465E00A9AF84 /* Info.plist */,
+			);
+			path = SwiftFacbook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195357E61BEA465E00A9AF84 /* SwiftFacbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195357F91BEA465E00A9AF84 /* Build configuration list for PBXNativeTarget "SwiftFacbook" */;
+			buildPhases = (
+				195357E31BEA465E00A9AF84 /* Sources */,
+				195357E41BEA465E00A9AF84 /* Frameworks */,
+				195357E51BEA465E00A9AF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFacbook;
+			productName = SwiftFacbook;
+			productReference = 195357E71BEA465E00A9AF84 /* SwiftFacbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195357DF1BEA465D00A9AF84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Innoeye;
+				TargetAttributes = {
+					195357E61BEA465E00A9AF84 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 195357E21BEA465D00A9AF84 /* Build configuration list for PBXProject "SwiftFacbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195357DE1BEA465D00A9AF84;
+			productRefGroup = 195357E81BEA465E00A9AF84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195357E61BEA465E00A9AF84 /* SwiftFacbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195357E51BEA465E00A9AF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195357F51BEA465E00A9AF84 /* LaunchScreen.storyboard in Resources */,
+				195357F21BEA465E00A9AF84 /* Assets.xcassets in Resources */,
+				195357F01BEA465E00A9AF84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195357E31BEA465E00A9AF84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195357ED1BEA465E00A9AF84 /* HomeViewController.swift in Sources */,
+				195357EB1BEA465E00A9AF84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		195357EE1BEA465E00A9AF84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195357EF1BEA465E00A9AF84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195357F31BEA465E00A9AF84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195357F41BEA465E00A9AF84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195357F71BEA465E00A9AF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		195357F81BEA465E00A9AF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		195357FA1BEA465E00A9AF84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftFacbook",
+				);
+				INFOPLIST_FILE = SwiftFacbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomar.SwiftFacbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		195357FB1BEA465E00A9AF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftFacbook",
+				);
+				INFOPLIST_FILE = SwiftFacbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomar.SwiftFacbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195357E21BEA465D00A9AF84 /* Build configuration list for PBXProject "SwiftFacbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195357F71BEA465E00A9AF84 /* Debug */,
+				195357F81BEA465E00A9AF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195357F91BEA465E00A9AF84 /* Build configuration list for PBXNativeTarget "SwiftFacbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195357FA1BEA465E00A9AF84 /* Debug */,
+				195357FB1BEA465E00A9AF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 195357DF1BEA465D00A9AF84 /* Project object */;
+}
